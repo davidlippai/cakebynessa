@@ -78,8 +78,6 @@ h1 {
 	font-weight: bold;
 	border-top: solid 1px black;
 	border-bottom: solid 1px black;
-	
-
 }
 
 ul {
@@ -125,11 +123,10 @@ li:hover {
 }
 
 img {
-	width: 98%;
-	height: 25vh;
+	width: 100%;
+	height: auto;
 	display: block;
 	margin: 0 auto;
-	border: solid 1px black;
 }
 
 main {
