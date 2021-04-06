@@ -143,8 +143,10 @@ h2 {
 	background-size: cover;
 	animation: slideDown 2.5s cubic-bezier(1,0,.1,1) 1;
 	width: 100%;
+	background-size: cover !important;
 
 }
+
 
 @keyframes slideDown{
   0%{height:0vh;}
