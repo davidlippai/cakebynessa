@@ -138,12 +138,11 @@ h2 {
 
 .main-image {
 	height: 25vh;
-	object-fit: cover;
-	background: url('assets/line4.jpg') fixed 0 0 no-repeat;
-	background-size: cover;
+	background: url('assets/line4.jpg') fixed 0 70% no-repeat;
 	animation: slideDown 2.5s cubic-bezier(1,0,.1,1) 1;
 	width: 100%;
 	background-size: cover !important;
+	background-size: 100vw 47.2756vw;
 
 }
 
@@ -250,6 +249,9 @@ li {
 	margin-top: 0.5rem;
 }
 
+details {
+	list-style: none;
+}
 /*======================Min-width: 768px ================*/
 
 @media (min-width: 768px) {
