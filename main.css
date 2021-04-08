@@ -101,13 +101,14 @@ h2 {
 .menu {
 	padding: 0.75rem;
 	border: solid 1px white;
-	background: linear-gradient(90deg,white,rgba(214, 129, 60, .6),white);
+	background: rgba(255, 255, 255, .7);
 	letter-spacing: 0.3rem;
 	font-size: 1rem;
 	margin-top: 0.25rem;
 	margin-bottom: 0.25rem;
 	font-weight: 600;
-	color: white;
+	color: black;
+	background: linear-gradient(90deg,white,rgba(214, 129, 60, .4),white);;
 }
 
 .shine {
@@ -117,12 +118,11 @@ h2 {
 
 @keyframes shining {
 	0% {
-		color:  white;
+		color:  black;
 	}
 
 
-	50% {
-		color: black;
+	50%  {
 	}
 	
 	75% {
@@ -130,7 +130,7 @@ h2 {
 	}
 
   100% {
-    color: rgba(214, 129, 60, .6)
+    color: black
   }
 }
 
@@ -154,6 +154,7 @@ h2 {
 
 main {
 	margin: 0 auto;
+	
 }
 
 .first-paraghraf {
@@ -162,7 +163,6 @@ main {
 	padding-bottom: 0.5rem;
 	margin: 0 auto;
 	margin-bottom: 1rem;
-	
 }
 
 div.first-paraghraf::after{
@@ -172,7 +172,7 @@ div.first-paraghraf::after{
 }
 
 .image-one {
-box-sizing: border-box;
+	box-sizing: border-box;
   border: solid 1px black;
 	float: left;
 	display: inline;
@@ -201,15 +201,15 @@ blockquote {
 
 .subscribe {
   padding: 1rem;
-  color: rgba(214, 129, 60, .6);
+  color: black;
   font-size: 1.25rem;
-  border-top: solid 1px rgba(214, 129, 60, .6);
-  border-bottom: solid 1px rgba(214, 129, 60, .6);
+  border-top: solid 1px rgba(214, 129, 60, .4);
+  border-bottom: solid 1px rgba(214, 129, 60, .4);
   font-family: bold;
 }
 
 .subscribe:hover {
-  background-color: rgba(214, 129, 60, .6);
+  background-color: rgba(214, 129, 60, .4);
   color: black;
   border-top: solid 1px black;
   border-bottom: solid 1px black;
@@ -218,7 +218,7 @@ blockquote {
 footer {
 	width: 100%;
 	margin: 0 auto;
-  background-color: rgba(214, 129, 60, .6);
+  background: linear-gradient(0deg, white, rgba(214, 129, 60, .4));
   color: rgba(0, 0, 0, .7);
   font-size: 1rem;
   margin-top: 1rem;
@@ -236,7 +236,6 @@ th, td {
 
 th {
   padding-top: 1rem;
-  color: white;
   font-weight: bold;
 }
 
@@ -245,8 +244,9 @@ li {
   text-align: center;
 }
 
-#subscribe-list {
+.subscribe {
 	margin-top: 0.5rem;
+	background: linear-gradient(0deg, rgba(214, 129, 60, .4),white);
 }
 
 details {
@@ -259,7 +259,7 @@ details {
 	.menu {
 		padding: 0.75rem;
 		border: solid 1px white;
-		background: linear-gradient(90deg,white,rgba(214, 129, 60, .6),white);
+		background: linear-gradient(90deg,white,rgba(214, 129, 60, .4),white);
 		letter-spacing: 0.3rem;
 		font-size: 1rem;
 		margin-top: 0.25rem;
