@@ -67,18 +67,18 @@ header {
 	margin: 0 auto;
 	width: 100%;
 	align-items: center;
+	background: url('assets/line2.jpg');
 }
 
 h1 {
 	font-size: 2rem;
 	text-align: center;
 	padding: 0.5rem;
-	margin-top: 1rem;
 	padding-top: 1.5rem;
 	height: 20%;
 	font-family: Calligraffitti, cursive;
 	font-weight: bold;
-	color: rgba(214, 129, 60, .6);
+	background-color: rgba(255, 255, 255, .7);
 }
 
 h2 {
@@ -172,11 +172,11 @@ div.first-paraghraf::after{
 }
 
 .image-one {
-
+box-sizing: border-box;
   border: solid 1px black;
 	float: left;
 	display: inline;
-	width: calc(100% / 3 - 1rem);
+	width: calc(96vw / 3 - 1rem);
 	margin-left: calc(1rem * 3 / 4);
 	height: 70%;
 }
