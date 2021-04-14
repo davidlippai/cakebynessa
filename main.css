@@ -108,7 +108,7 @@ h2 {
 	margin-bottom: 0.25rem;
 	font-weight: 600;
 	color: black;
-	background: linear-gradient(90deg,white,rgba(214, 129, 60, .4),white);;
+	background: linear-gradient(90deg,white,rgba(214, 129, 60, .4),white);
 }
 
 .shine {
@@ -134,7 +134,10 @@ h2 {
   }
 }
 
-
+a {
+	text-decoration: none;
+	color: black;
+}
 
 .main-image {
 	height: 25vh;
@@ -179,6 +182,8 @@ div.first-paraghraf::after{
 	width: calc(96vw / 3 - 1rem);
 	margin-left: calc(1rem * 3 / 4);
 	height: 70%;
+	border-radius: 0.25rem;
+	box-shadow: 4px 4px 4px  rgba(0, 0, 0, .3);
 }
 
 .image-one:hover {
@@ -200,12 +205,15 @@ blockquote {
 }
 
 .subscribe {
-  padding: 1rem;
+  padding: 1.1rem;
   color: black;
-  font-size: 1.25rem;
-  border-top: solid 1px rgba(214, 129, 60, .4);
-  border-bottom: solid 1px rgba(214, 129, 60, .4);
+  font-size: 1rem;
+  border-top: solid 1px white;
+  border-bottom: solid 1px white;
   font-family: bold;
+	margin-top: 0.5rem;
+  background: linear-gradient(0deg, white, rgba(214, 129, 60, .2));
+
 }
 
 .subscribe:hover {
@@ -213,7 +221,7 @@ blockquote {
   color: black;
   border-top: solid 1px black;
   border-bottom: solid 1px black;
-  font-size: 1.4rem;
+  font-size: 1.25rem;
 }
 footer {
 	width: 100%;
@@ -244,11 +252,6 @@ li {
   text-align: center;
 }
 
-.subscribe {
-	margin-top: 0.5rem;
-	background: linear-gradient(0deg, rgba(214, 129, 60, .4),white);
-}
-
 details {
 	list-style: none;
 }
@@ -270,6 +273,10 @@ details {
 		float: left;
 	}
 
+	a {
+		color: white;
+	}
+
 	.main-image {
 		width: 100%;
 		height: 25vh;
@@ -286,7 +293,9 @@ details {
 	}
 
 	.image-one {
-		height: 80%;
+		height: 30vh;
+		max-width: 250px;
+		max-height: 250px;
 	}
 
 }
@@ -308,6 +317,7 @@ details {
 		width: calc(100% /  3 - 10rem);
 		margin-left: calc(10rem * 3 / 4);
 		box-shadow: 8px 8px 8px  rgba(0, 0, 0, .3);
+		height: 20vh;
 	}
 
 	.image-one:hover {
